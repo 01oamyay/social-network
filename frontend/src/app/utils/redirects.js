@@ -1,5 +1,3 @@
-import { redirect } from "next/navigation";
-
 function handleAuthBtn(e) {
   e.preventDefault();
 
@@ -10,7 +8,7 @@ function handleAuthBtn(e) {
       redirect("/login");
     }
     case "register_redirect": {
-      redirect("/signup");
+      redirect("/register");
     }
     case "forgot_password": {
       redirect("/forgot-password");

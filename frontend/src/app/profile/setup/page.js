@@ -20,6 +20,7 @@ export default function SetupProfile() {
             height={100}
             id="preview_image"
             className={styles.avatar}
+            priority
           />
 
           <input

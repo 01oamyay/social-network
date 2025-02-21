@@ -1,0 +1,55 @@
+.nav_sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 60px;
+  left: 0px;
+  width: 180px;
+  height: 100%;
+  background-color: #333;
+}
+
+.logo {
+  margin-inline: 20px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.logo h1 {
+  color: aliceblue;
+  font-size: 30px;
+  margin: 0;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.nav__item {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item.active {
+  background-color: #424242;
+}
+
+.nav__item a {
+  color: aliceblue;
+}
+
+.nav__item svg {
+  color: aliceblue;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
